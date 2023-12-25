@@ -89,7 +89,7 @@ def chk():
       pass 
     else: 
       print("\x1b[1;97m [\033[1;91m•\x1b[1;97m]\033[1;93m YOUR ID IS NOT ACTIVE SEND MESSAGE ON WHATSAPP FREE USER PLEASE DONT INBOX\033[97m")
-      os.system('xdg-open https://wa.me/+94703243339')
+      os.system('xdg-open https://wa.me/+94781782649')
       time.sleep(1) 
       sys.exit() 
   except: 
