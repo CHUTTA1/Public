@@ -65,11 +65,11 @@ class Logo:
 {H2}###########......🙈🙈🙈
 ----------------------------------------------
 TOOL :  CH🖤  
-VERSION : 0.2
+VERSION : 0.3
 STATUS : PAID🙈
 ENJOY ALL  🤡📍
 ----------------------------------------------
- DAYLY UPDATE 🖤
+ DAYLY UPDATE 🤍
 ----------------------------------------------   
 		 """)
 def chk(): 
@@ -121,7 +121,7 @@ class Login:
 			#open("data/cookie","w").write(cookie)
 			self.login_cookie(cookie)
 		else:
-			exit(prints(Panel(f"""{M2}🙏 maaf fitur ini belum tersedia, silahkan menunggu update selanjutnya""",width=80,style=f"{color_panel}")))
+			exit(prints(Panel(f"""{M2}🙏🙏maaf fitur ini belum tersedia, silahkan menunggu update selanjutnya""",width=80,style=f"{color_panel}")))
 			
 	###----------[ LOGIN COOKIE ]---------- ###
 	def login_cookie(self,cookie):
