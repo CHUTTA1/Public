@@ -65,7 +65,7 @@ class Logo:
 {H2}###########......🙈🙈🙈
 ----------------------------------------------
 TOOL :  CH🖤  
-VERSION : 0.3
+VERSION : 0.0
 STATUS : PAID🙈
 ENJOY ALL  🤡📍
 ----------------------------------------------
@@ -121,7 +121,7 @@ class Login:
 			#open("data/cookie","w").write(cookie)
 			self.login_cookie(cookie)
 		else:
-			exit(prints(Panel(f"""{M2}🙏🙏maaf fitur ini belum tersedia, silahkan menunggu update selanjutnya""",width=80,style=f"{color_panel}")))
+			exit(prints(Panel(f"""{M2}🙏maaf fitur ini belum tersedia, silahkan menunggu update selanjutnya""",width=80,style=f"{color_panel}")))
 			
 	###----------[ LOGIN COOKIE ]---------- ###
 	def login_cookie(self,cookie):
@@ -190,7 +190,7 @@ class Menu:
 		###----------[ PANEL BIASA ]---------- ###
 		prints(f"{K2} YOUR IP ADRESS = {self.ip}")
 		prints(f"{K2} ACCOUNT NAME = {nama}")
-		prints(f"{K2} IF  YOU NEED TO  LOGOUT TYPE BACK📌️📌️ \n\n")
+		prints(f"{K2} IF  YOU NEED TO  LOGOUT TYPE BACK📌️ \n\n")
 		prints(f"""{H2}01)CRACK FROM PUBLIC \n{H2}02)TYPE back FOR LOGOUT\n""")
 		
 		
@@ -415,7 +415,7 @@ class Crack:
 					tree = Tree("                        ")
 					tree.add(f" CH🖤 {K2}{user}|{pw}{P2} ")
 					#prints(tree)
-					open(f"CP/{self.hari_ini}.txt","a").write(f"CH🖤 CP🥲 | {user} | {pw}\n")
+					open(f"CP/{self.hari_ini}.txt","a").write(f"CH🖤 CP😒 | {user} | {pw}\n")
 					break
 				elif "Calls to this api have exceeded the rate limit. (613)" in post.text:
 					prog.update(des,description=f" {H2}•{P2} crack {M2}spam{P2} {str(self.loop)}/{len(tampung)} OK : {H2}{len(self.ok)}{P2} CP : {K2}{len(self.cp)}{P2}")
